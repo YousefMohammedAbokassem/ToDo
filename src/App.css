@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+.app form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+.app form input:first-child {
+  background-color: #6640a8;
+  display: block;
+  width: 80%;
+  border-radius: 8px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border: none;
+}
+.app form input:first-child::-moz-placeholder {
+  color: #fff;
+}
+.app form input:first-child:-ms-input-placeholder {
+  color: #fff;
+}
+.app form input:first-child::placeholder, .app form input:first-child:focus {
+  color: #fff;
+}
+.app form input:first-child:focus {
+  outline: #fff;
+}
+.app form input:last-child {
+  flex: 1;
+  height: 50px;
+  background: #673ab7;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.app div {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.app div span {
+  background-color: #00bcd4;
+  display: block;
+  width: 80%;
+  color: #fff;
+  border-radius: 8px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.app div button {
+  flex: 1;
+  height: 50px;
+  background: #9e9e9e;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.app a {
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #2196f3;
+  color: #fff;
+  opacity: 0.5;
+}
+@media (max-width: 380px) {
+  .app a {
+    font-size: 0.7rem;
+  }
+}
+.app a.active {
+  opacity: 1;
+}
+
+.app2 form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+.app2 form input:first-child {
+  background-color: #e23d8a;
+  display: block;
+  width: 80%;
+  border-radius: 8px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border: none;
+}
+.app2 form input:first-child::-moz-placeholder {
+  color: #fff;
+}
+.app2 form input:first-child:-ms-input-placeholder {
+  color: #fff;
+}
+.app2 form input:first-child::placeholder, .app2 form input:first-child:focus {
+  color: #fff;
+}
+.app2 form input:first-child:focus {
+  outline: #fff;
+}
+.app2 form input:last-child {
+  flex: 1;
+  height: 50px;
+  background: rgba(237, 49, 137, 0.8196078431);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.app2 div {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.app2 div span {
+  display: block;
+  background-color: #e91e63;
+  color: #fff;
+  width: 80%;
+  border-radius: 8px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.app2 div button {
+  flex: 1;
+  height: 50px;
+  background: #ec407a;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.app2 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #e23d8a;
+  color: white;
+  opacity: 0.5;
+}
+@media (max-width: 380px) {
+  .app2 a {
+    font-size: 0.7rem;
+  }
+}
+.app2 a.active {
+  opacity: 1;
+}/*# sourceMappingURL=App.css.map */
