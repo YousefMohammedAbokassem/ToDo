@@ -21,7 +21,7 @@ function WithoutComp() {
   };
   return (
     <div className="app2">
-      {/* <Nav /> */}
+      <Nav />
       <form onSubmit={submit}>
         <input
           type="text"

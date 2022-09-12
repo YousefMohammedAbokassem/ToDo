@@ -22,18 +22,16 @@ const root = ReactDOM.createRoot(container);
 
 function render() {
   root.render(
-    // <BrowserRouter>
-    <div>
-      <WithComp />
-      <WithoutComp />
-      {/* <Routes> */}
-      {/* <Route path="/reactToDoList/" element={<WithComp />} /> */}
-      {/* <Route path="/Hooks" element={<WithoutComp />} /> */}
-      {/* </Routes> */}
-    </div>,
-    {
-      /* </BrowserRouter> */
-    }
+    <BrowserRouter>
+      <div>
+        {/* <WithComp />
+      <WithoutComp /> */}
+        <Routes>
+          <Route path="/todo/" element={<WithComp />} />
+          <Route path="/Hooks" element={<WithoutComp />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 render();

@@ -51,7 +51,7 @@ export default class WithComp extends Component {
   render() {
     return (
       <div className="app">
-        {/* <Nav /> */}
+        <Nav />
         <form onSubmit={this.add}>
           <input
             type="text"
